@@ -25,5 +25,4 @@ COPY sockd /etc/pam.d/sockd
 
 EXPOSE 1080
 
-# В Debian бинарник называется sockd
 CMD ["/usr/sbin/danted", "-f", "/etc/danted.conf", "-N", "1"]
